@@ -15,6 +15,9 @@
 		09EB53611C478A3100F5A4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EB535F1C478A3100F5A4B6 /* LaunchScreen.storyboard */; };
 		09EB536C1C478A3100F5A4B6 /* SJSelectProAndCityDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB536B1C478A3100F5A4B6 /* SJSelectProAndCityDemoTests.m */; };
 		09EB53771C478A3100F5A4B6 /* SJSelectProAndCityDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB53761C478A3100F5A4B6 /* SJSelectProAndCityDemoUITests.m */; };
+		09EB53871C478CCC00F5A4B6 /* SJSelectProAndCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB53851C478CCC00F5A4B6 /* SJSelectProAndCityViewController.m */; };
+		09EB53881C478CCC00F5A4B6 /* SJSelectProAndCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09EB53861C478CCC00F5A4B6 /* SJSelectProAndCityViewController.xib */; };
+		09EB538A1C4791A100F5A4B6 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09EB53891C4791A100F5A4B6 /* city.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		09EB53721C478A3100F5A4B6 /* SJSelectProAndCityDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJSelectProAndCityDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EB53761C478A3100F5A4B6 /* SJSelectProAndCityDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJSelectProAndCityDemoUITests.m; sourceTree = "<group>"; };
 		09EB53781C478A3100F5A4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EB53841C478CCC00F5A4B6 /* SJSelectProAndCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSelectProAndCityViewController.h; sourceTree = "<group>"; };
+		09EB53851C478CCC00F5A4B6 /* SJSelectProAndCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSelectProAndCityViewController.m; sourceTree = "<group>"; };
+		09EB53861C478CCC00F5A4B6 /* SJSelectProAndCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJSelectProAndCityViewController.xib; sourceTree = "<group>"; };
+		09EB53891C4791A100F5A4B6 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +112,13 @@
 				09EB53551C478A3100F5A4B6 /* AppDelegate.m */,
 				09EB53571C478A3100F5A4B6 /* ViewController.h */,
 				09EB53581C478A3100F5A4B6 /* ViewController.m */,
+				09EB53841C478CCC00F5A4B6 /* SJSelectProAndCityViewController.h */,
+				09EB53851C478CCC00F5A4B6 /* SJSelectProAndCityViewController.m */,
+				09EB53861C478CCC00F5A4B6 /* SJSelectProAndCityViewController.xib */,
 				09EB535A1C478A3100F5A4B6 /* Main.storyboard */,
 				09EB535D1C478A3100F5A4B6 /* Assets.xcassets */,
 				09EB535F1C478A3100F5A4B6 /* LaunchScreen.storyboard */,
+				09EB53891C4791A100F5A4B6 /* city.plist */,
 				09EB53621C478A3100F5A4B6 /* Info.plist */,
 				09EB53511C478A3100F5A4B6 /* Supporting Files */,
 			);
@@ -202,6 +213,7 @@
 		09EB53461C478A3100F5A4B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SPIREJ;
 				TargetAttributes = {
@@ -245,6 +257,8 @@
 			files = (
 				09EB53611C478A3100F5A4B6 /* LaunchScreen.storyboard in Resources */,
 				09EB535E1C478A3100F5A4B6 /* Assets.xcassets in Resources */,
+				09EB538A1C4791A100F5A4B6 /* city.plist in Resources */,
+				09EB53881C478CCC00F5A4B6 /* SJSelectProAndCityViewController.xib in Resources */,
 				09EB535C1C478A3100F5A4B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +286,7 @@
 			files = (
 				09EB53591C478A3100F5A4B6 /* ViewController.m in Sources */,
 				09EB53561C478A3100F5A4B6 /* AppDelegate.m in Sources */,
+				09EB53871C478CCC00F5A4B6 /* SJSelectProAndCityViewController.m in Sources */,
 				09EB53531C478A3100F5A4B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
